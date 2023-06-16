@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    /* margin: 0 auto; */
+    background: linear-gradient(to top, rgb(15, 15, 75), black);
+}
+
+.todo-app {
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    box-shadow: 0 0 15px white;
+    margin: 50px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+}
+
+.todo-app h2 {
+    text-shadow: 2px 5px 2px rgb(99, 99, 182);
+    font-size: 30px;
+    font-weight: bold;
+    color: #002765;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    padding: 20px;
+
+}
+
+.todo-app i {
+    float: right;
+    margin-left: 270px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #edeef0;
+    border-radius: 20px;
+    padding-left: 25px;
+    margin-bottom: 25px;
+}
+
+input {
+    flex: 1;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 19px;
+    padding: 10px;
+}
+
+button {
+    outline: none;
+    border: none;
+    padding: 16px 50px;
+    background: #002765;
+    /* background: #ff5945; */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.delete {
+    margin-left: 15px;
+    padding: 16px;
+}
+
+
+.to-dos button {
+    border-radius: 20px;
+    box-shadow: 0 0 12px black;
+}
+
+.edit {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    border-bottom: 4px solid #002765;
+}
+
+.item .actions {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    width: 90%;
+}
+
+.item.content .text:hover {
+    cursor: context-menu;
+}
